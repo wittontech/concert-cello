@@ -6,17 +6,20 @@
 //
 
 import UIKit
+import SnapKit
 
 public class CelloViewController: UIViewController {
 
-  lazy titleLabel: UILabel = {
+  lazy var titleLabel: UILabel = {
     let label = UILabel()
     label.text = "Cello"
-    label.fontSize = 20
-    label.color = .orange
+    label.font = UIFont.systemFont(ofSize: 20)
+    label.textColor = .orange
+    
+    return label
   }()
 
-  override func viewDidLoad() {
+  public override func viewDidLoad() {
     super.viewDidLoad()
 
     self.view.addSubview(titleLabel)

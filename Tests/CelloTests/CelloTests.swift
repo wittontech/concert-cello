@@ -6,6 +6,6 @@ final class CelloTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(Cello().text, "Hello, World!")
+        XCTAssertEqual(CelloModel().text, "Playing Cello")
     }
 }
