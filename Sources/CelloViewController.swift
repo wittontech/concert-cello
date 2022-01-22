@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CelloViewController: UIViewController {
+public class CelloViewController: UIViewController {
 
   lazy titleLabel: UILabel = {
     let label = UILabel()
